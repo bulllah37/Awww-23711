@@ -46,7 +46,7 @@ module.exports = {
 
 			Object.keys(categories).forEach((category) => {
 				if (category !== "info") {
-					msg += `\n╭───────────❍\n│ 『  ${category.toUpperCase()}  』`;
+					msg += `\n╭───────────💫\n│ 『  ${category.toUpperCase()}  』`;
 
 
 					const names = categories[category].commands.sort();
@@ -65,7 +65,7 @@ module.exports = {
 			msg += `𒁍 𝕱𝖑𝖊𝖝𝖝𝖆 終`; // its not decoy so change it if you want 
 
 			const helpListImages = [
-				'https://imgur.com/a/tlXBEMk',
+				'',
 			];
 
 			const helpListImage = helpListImages[Math.floor(Math.random() * helpListImages.length)];
